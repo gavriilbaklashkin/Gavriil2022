@@ -1,10 +1,18 @@
- 
+ *{
+     margin: 0%;
+     padding: 0;
+     box-sizing: border-box;
+     color: green;
+     nav-down: auto;
+    
+ }
 body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
     text-align:  center;
     color: rgb(146, 8, 8);
+
 }
 .header{
 font-style: italic;
@@ -13,12 +21,12 @@ font-style: italic;
 font-size: 24px;
 }
 .cat{
-    position: absolute;
-
-
-width: 442px;
-height: 300px;
-transition: 6.5s;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px; 
+width: 350px;
+height: 200px;
+transition: 3.2s;
 
 }
 .cat:hover{
@@ -30,9 +38,9 @@ h3{
     color:blue
 }
 .btn{
-    width: 200px;
-    height: 100px;
-    border: 1px solid  beige;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid  rgb(27, 104, 46);
     color: grey;
     text-decoration: none;
     padding: 10px 20px;
@@ -44,4 +52,30 @@ h3{
 .btn:hover{
     color: black;
     background-color: aliceblue;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    border:black ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+.header_link{
+    color: rgb(31, 194, 112);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 3s;
+}
+.header_link:hover{
+    color: black;
+    text-decoration: underline;
+}
+.title{
+    margin-top: 50px;
 }
