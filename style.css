@@ -2,7 +2,7 @@
      margin: 0%;
      padding: 0;
      box-sizing: border-box;
-     color: green;
+     color: rgb(76, 21, 226);
      nav-down: auto;
     
  }
@@ -12,6 +12,7 @@ body{
 h1{
     text-align:  center;
     color: rgb(146, 8, 8);
+    padding: 20px
 
 }
 .header{
@@ -19,13 +20,14 @@ font-style: italic;
 }
 .paragraph{
 font-size: 24px;
+color: green;
 }
 .cat{
     display: block;
     margin: 0 auto;
     margin-top: 100px; 
-width: 350px;
-height: 200px;
+width: 250px;
+height: 100px;
 transition: 3.2s;
 
 }
@@ -48,6 +50,7 @@ h3{
     background-color:black ;
     cursor: pointer;
     transition: .9s;
+    margin-left: 1500px;
 } 
 .btn:hover{
     color: black;
@@ -78,4 +81,79 @@ h3{
 }
 .title{
     margin-top: 50px;
+}
+
+.com{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; 
+width: 350px;
+height: 250px;
+transition: 3.2s;
+}
+.ghoul{
+    margin-left: 800px;
+    color: rgb(216, 36, 36);
+    font-size: 24px;
+    margin-top: 25px;
+ 
+}
+
+.net{
+    font-size: 20px;
+    color: rgb(230, 167, 33);
+}
+.h2{
+    margin-left: 800px;
+}
+.top{
+    margin-left: 720px;
+    margin-top: 25px;
+}
+.raketa{
+    margin-left: 900px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(138, 138, 223);
+}
+.wal{
+    color: blueviolet;
+font-size: 24px;
+margin-left: 800px;
+margin-top: 20px;
+}
+.ter{
+    margin-left: 700px;
+    width: 650px;
+height:500px
+}
+.vlad{
+    color: rgb(55, 131, 55);
+    font-size: 20px;
+    padding: 15px;
+}
+.popov{
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 650px;
+    height:650px;
+    padding: 15px;
+
+}
+
+.pov{
+    font-size: 24px;
+    color: rgb(71, 22, 206);
+    margin-left: 800px;
+}
+.povov{
+    font-size: 20px;
+    color: rgb(194, 123, 36);
+    padding: 15px;
+
+}
+.green{
+    font-size: 20px;
+    color: rgb(72, 243, 129);
+    padding: 15px;
 }
