@@ -1,6 +1,6 @@
- *{
-     margin: 0%;
-     padding: 0;
+*{
+    margin: 0%;
+    padding: 15pxыЫ;
      box-sizing: border-box;
      color: rgb(76, 21, 226);
      nav-down: auto;
@@ -37,11 +37,13 @@ transition: 3.2s;
 
 h3{
     text-align: center;
-    color:blue
+    color:blue;
+    padding: 15px;
+
 }
 .btn{
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     border: 1px solid  rgb(27, 104, 46);
     color: grey;
     text-decoration: none;
@@ -87,8 +89,8 @@ h3{
     display: block;
     margin: 0 auto;
     margin-top: 50px; 
-width: 350px;
-height: 250px;
+width: 450px;
+height: 350px;
 transition: 3.2s;
 }
 .ghoul{
@@ -102,6 +104,7 @@ transition: 3.2s;
 .net{
     font-size: 20px;
     color: rgb(230, 167, 33);
+    padding: 15px;
 }
 .h2{
     margin-left: 800px;
@@ -156,4 +159,12 @@ height:500px
     font-size: 20px;
     color: rgb(72, 243, 129);
     padding: 15px;
+}
+.kon{
+    font-size: 24px;
+    margin-left: 800px;
+    color: brown;
+}
+@media screen and (max-width: 768px){
+
 }
